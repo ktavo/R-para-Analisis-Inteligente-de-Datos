@@ -1,4 +1,6 @@
-#
+#Overlapping BArs
+#Este tipo de gráfco es útil cuando queremos apreciar la distribución
+#en dos subconjuntos de individuos.
 
 rm(list=ls())
 
