@@ -1,3 +1,8 @@
+#Bar chart
+#Es adecuado para representar variables cualitativas y aventaja al 
+#diagrama circular pues que permite apreciar la distribución
+#conjunta de dos variables.
+
 rm(list=ls())
 
 setwd("E:/UBA/Análisis Inteligente de Datos/Scripts Apunte Teórico")

@@ -1,3 +1,9 @@
+#Pie Chart
+#Sobre el eje de las abscisas (horizontal) se representan las distintas categorías, 
+#valores o intervalos de la variable en estudio. Sobre el eje las ordenadas (vertical)
+#se representan las frecuencias absolutas y/o las relativas (cociente entre las 
+#absolutas y la cantidad total de observaciones) o sus correspondientes porcentajes.
+
 rm(list=ls())
 
 setwd("E:/UBA/Análisis Inteligente de Datos/Scripts Apunte Teórico")
