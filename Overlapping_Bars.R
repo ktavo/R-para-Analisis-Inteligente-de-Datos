@@ -1,11 +1,9 @@
-#Overlapping BArs
+#Overlapping Bars
 #Este tipo de gráfco es útil cuando queremos apreciar la distribución
 #en dos subconjuntos de individuos.
 
 rm(list=ls())
-
 setwd("E:/UBA/Análisis Inteligente de Datos/Scripts Apunte Teórico")
-
 
 library("readxl")
 library("ggplot2")
