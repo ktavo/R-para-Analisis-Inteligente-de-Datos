@@ -5,3 +5,14 @@
 rm(list=ls())
 setwd("E:/UBA/Análisis Inteligente de Datos/Scripts Apunte Teórico")
 
+library("ggplot2")
+
+#Declara la cilindrada como un factor
+mtcars$cilind =factor(mtcars$cyl)
+
+#Produce el diagrama de dispersión
+ggplot(mtcars, aes(wt, mpg)) +
+geom_point(aes(colour = cilind)) +
+xlab("Peso") + 
+ylab("Millas_Por_Galón") +
+labs(colour = "Cilindrada")
