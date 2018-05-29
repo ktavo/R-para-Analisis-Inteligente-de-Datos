@@ -11,3 +11,11 @@ hist(iris$Sepal.Length, nclass = 4, prob = TRUE, ylab = "Densidad",
      col = "lightsteelblue", border = "lightsteelblue4",
      xlab = "Longitud_del_sépalo", main = "4_clases")
 
+hist(iris$Sepal.Length, nclass = 30, prob = TRUE, ylab = "Densidad",
+     col = "lightsteelblue", border = "lightsteelblue4",
+     xlab = "Longitud_del_sépalo", main = "30_clases")
+
+hist(iris$Sepal.Length, breaks = "FD", prob = TRUE, ylab = "Densidad",
+     col = "lightsteelblue", border = "lightsteelblue4",
+     xlab = "Longitud_del_sépalo", main = "Freedman-Diaconis")
+
