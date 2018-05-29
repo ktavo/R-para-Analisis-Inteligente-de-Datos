@@ -1,4 +1,4 @@
-#
+#Histogram
 #Se utiliza para representar distribuciones de frecuencias correspondientes a 
 #variables continuas. Uniendo los puntos medios de las bases superiores de los
 #rectángulos del histograma se construye un polígono de frecuencias.
