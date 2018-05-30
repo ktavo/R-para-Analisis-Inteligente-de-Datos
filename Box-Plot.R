@@ -21,6 +21,3 @@ ggplot(data = datos, aes(y = kcal), colour = factor(Laboratorio)) +
   theme(axis.line = element_line(colour = "royalblue", size = 0.5, linetype = "solid")) +
   labs(fill = "Laboratorio") +
   scale_fill_brewer(palette = "BuPu")
-
-
-
