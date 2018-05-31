@@ -13,4 +13,4 @@ row.names(autos) = c("Mazda", "Mazda_Wag", "Datsun", "Hornet_D", "Hornet_S",
                      "Valiant", "Duster", "Merc_D", "Merc")
 
 #Generamos diagrama de estrellas
-stars(autos, full = F, cex = 0.8, flip.labels = T, len = 1.9, col.stars = cm.colors(9))
+stars(autos, full = F, cex = 0.8, flip.labels = T, len = 0.9, col.stars = cm.colors(9))
