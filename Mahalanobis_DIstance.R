@@ -16,7 +16,7 @@ cov3=cov.rob(stack.x,method="classical",nsamp="best")
 center1=apply(stack.x,2,mean)#Calcula el vector de medias
 center2=apply(stack.x,2,median)#Calcula el vector de medianas
 dcov1=0;dcov2=0;dcov3=0#Inicializaciones
-for(iin1:21){
+for(i in 1:21){
   dcov1[i]=mahalanobis(stack.x[i,],cov1$center,cov1$cov,inverted=FALSE)
   dcov2[i]=mahalanobis(stack.x[i,],cov2$center,cov2$cov,inverted=FALSE)
   dcov3[i]=mahalanobis(stack.x[i,],cov3$center,cov3$cov,inverted=FALSE)
