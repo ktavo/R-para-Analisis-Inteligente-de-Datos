@@ -7,7 +7,7 @@ setwd("E:/UBA/Análisis Inteligente de Datos/Scripts Apunte Teórico")
 library("scatterplot3d")
 library("readxl")
 
-riesgo = read_excel("/DataSets/riesgo.xlsx")
+riesgo = read_excel("DataSets/riesgo.xlsx")
 
 #Organiza los datos
 datos = data.frame(x = riesgo$Presión, y = riesgo$Peso, z = riesgo$Edad, group = riesgo$Sexo)
