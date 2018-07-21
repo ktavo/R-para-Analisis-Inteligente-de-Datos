@@ -1,7 +1,7 @@
 #Dispersograma dos variables
 
 rm(list=ls())
-setwd("E:/UBA/AnÃ¡lisis Inteligente de Datos/Scripts Apunte TeÃ³rico")
+setwd("E:/UBA/Análisis Inteligente de Datos/Scripts Apunte Teórico")
 
 #Librería para graficar
 library("ggplot2")
