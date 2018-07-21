@@ -3,16 +3,15 @@
 rm(list=ls())
 setwd("E:/UBA/Análisis Inteligente de Datos/Scripts Apunte Teórico")
 
-install.packages("ggrepel")
-#Libraría para graficar
+#Librer�a para graficar
 library("ggplot2")
-#Librería para manipular etiquetas de los gráficos
+#Librer�a para manipular etiquetas de los gráficos
 library("ggrepel")
-#Librería para leer xlsx
+#Librer�a para leer xlsx
 library("readxl")
 
 #Importa Archivo para trabajar
-riesgo = read_excel("../Data Sets Apunte Teórico/riesgo.xlsx")
+riesgo = read_excel("../Data Sets Apunte Te�rico/riesgo.xlsx")
 attach(riesgo)
 
 #Generamos el dispersograma
