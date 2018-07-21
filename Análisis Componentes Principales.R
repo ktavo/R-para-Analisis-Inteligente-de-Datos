@@ -3,6 +3,8 @@
 rm(list=ls())
 setwd("E:/UBA/Análisis Inteligente de Datos/Scripts Apunte Teórico")
 
+#Pquete para leer excel
+library("readxl")
 #Paquete para gráficos
 library("ggplot2")
 #Herramientas para desarollo de paquetes
@@ -11,6 +13,7 @@ library("devtools")
 install_github("vqv/ggbiplot")
 #Paquete para vizualización de componentes principales
 library("ggbiplot")
+
 
 nad = read_excel("DataSets/nadadores.xlsx")
 nadadores = data.frame(nad[,2:5])
