@@ -7,6 +7,7 @@ library("ca")
 library("FactoMineR")
 library("ggplot2")
 library("factoextra")
+install.packages("enexprs")
 
 
 #Filas de la base
