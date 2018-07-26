@@ -12,3 +12,4 @@ shapiro.test(Arbequina)#No satisface supuesto de normalidad
 shapiro.test(Carolea) #No satisface supuesto de normalidad
 #Por no satisfacer el supuesto de normalidad se requiere un test de Wilcox
 wilcox.test(Arbequina, Carolea, alternative = "two.sided")
+
